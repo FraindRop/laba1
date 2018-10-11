@@ -1,0 +1,14 @@
+{ 
+class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Введите символ:");
+            if (int.TryParse(Console.ReadLine(), out int c))
+                Console.WriteLine("Это цифра!");
+            else
+                Console.WriteLine("Это не цифра!");
+            Console.ReadKey(true);
+        }
+    }
+}
